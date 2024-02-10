@@ -4,7 +4,8 @@
 
 -LINKS
 Repositorio de GITHUB: https://github.com/Rodxuan/Planificacionacademica.git
-Video de Youtube: 
+
+Video de Youtube: https://youtu.be/wWUu8wkGd1E
 
 
 La actividad fue realizada en conjunto, debido a que los dos vivimos cerca nada mas contamos con una computadora funcional para realizar las actividades, asi que ninguno se ocupo de algo en especifico si no, que los dos lo hicimos en conjunto todo el trabajo.
