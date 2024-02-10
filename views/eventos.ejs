@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    <h1>Eventos de la materia: <%= materia %></h1>
+    <hr>
+    <ul>
+        <% for(let i = 0; i < eventos.length; i++) { %>
+            <li>
+                <div><%= eventos[i].evento %>, seccion <%= eventos[i].seccionId %></div><br>
+                <legend><%= eventos[i].fecha.getDay() %>/<%= eventos[i].fecha.getMonth() %>/<%= eventos[i].fecha.getFullYear() %></legend>
+            </li>
+        <% } %>
+    </ul>
+</body>
+</html>

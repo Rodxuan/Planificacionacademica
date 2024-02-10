@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    <h1>Eventos de los profesores</h1>
+    <hr>
+    <ul>
+        <% for(let i = 0; i < eventos_profesor.length; i++) { %>
+            <li>
+                <h5><%= eventos_profesor[i].profesor.apellido %>, <%= eventos_profesor[i].profesor.nombre %></h5><br>
+                <ul>
+                    <% for(let j = 0; j < eventos_profesor[i].eventos.length; j++) { %>
+                        <li><%= eventos_profesor[i].eventos[j].evento %></li><br>
+                        <legend><%= eventos_profesor[i].eventos[j].fecha %></legend>
+                    <% } %>
+                </ul>
+            </li>
+        <% } %>
+    </ul>
+</body>
+</html>
